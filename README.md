@@ -23,7 +23,7 @@ lists them, installs them together, and explains where each fits.
 | | [Outline Patch](https://github.com/iagoandreu/outline-patch) | Cuts the bone surface inside a closed 3D outline exactly and thickens it into a new body, with an optional rounded rim. | yes |
 | Screw and pin trajectories | [Axis Cylinder](https://github.com/iagoandreu/axis-cylinder) | A cylinder along a direction read off the model - a fitted plane normal, an edge or axis, a cylindrical face, a cylinder fitted to a scanned surface - placed where it is on screen. | no |
 | | [Fit Primitives](https://github.com/iagoandreu/fit-primitives) | Paint a region of a surface with a brush and fit a cylinder or a plane to it, with the deviation reported. | no |
-| Porous regions | [Lattice](https://github.com/iagoandreu/voronoi-lattice) | Fills a volume or covers a surface with a Voronoi or cubic lattice, as a Form or a mesh, with the porosity measured on what was built. | yes |
+| Porous regions | [Lattice](https://github.com/iagoandreu/voronoi-lattice) | Fills a volume with a Voronoi foam or a regular cell (cubic, BCC, FCC, octet, diamond, Kelvin), or covers a surface with a Voronoi or cubic net, as a Form or a mesh, with the porosity measured on what was built. | yes |
 | Out to the printer | [Batch STL Export](https://github.com/iagoandreu/batch-stl-export) | Exports many bodies or components to STL in one pass, with refinement settings remembered between runs. | no |
 
 **Every tool's README starts with a *How to use* section**: where the button is,
