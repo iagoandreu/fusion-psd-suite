@@ -13,13 +13,13 @@ lists them, installs them together, and explains where each fits.
 
 | Step | Tool | What it does | External Python |
 |---|---|---|---|
-| Bring the anatomy in | [Mesh to Part](https://github.com/iagoandreu/mesh-to-part) | Turns a segmented STL into a solid or a smooth T-spline Form body under a measured maximum error; **Wrap** grows or shrinks a body by a distance where Offset Face and Shell give up on organic shapes. | yes |
+| Bring the anatomy in | [Mesh to Part](https://github.com/iagoandreu/mesh-to-part) | Turns a segmented STL into a solid, or into a smooth Form body in about 20 s whatever the triangle count (quad remesh, cancellable, optional offset); **Wrap** grows or shrinks a body by a distance where Offset Face and Shell give up on organic shapes. | yes |
 | Put it in place | [Global Registration](https://github.com/iagoandreu/global-registration) | Aligns one body onto another by shape alone, no landmarks (e.g. a mirrored healthy side onto the affected one, a plan onto a new scan), and carries other bodies along. | yes |
 | | [Align Planes](https://github.com/iagoandreu/align-planes) | Brings a moving plane onto a fixed one (a cutting slot onto a planned osteotomy, a plate face onto a resection) and carries bodies along. | no |
 | Outline on the bone | [Bone Guide](https://github.com/iagoandreu/bone-guide) - **Bone Curve** | A closed curve on the bone, from the drill cylinders or a sketch, edited like a spline whose points slide over the bone. | yes |
 | | [Intersection Sketch](https://github.com/iagoandreu/intersection-sketch) | The contour where two bodies meet, as an editable fitted spline. | no |
 | | [Alpha Shape](https://github.com/iagoandreu/alpha-shape) | A lofted solid envelope round several bodies (pins, screws, drill sleeves), gaps closed with round arcs. | yes |
-| Grow the device | [Bone Guide](https://github.com/iagoandreu/bone-guide) - **Guide Base** | The guide base inside the curve: thickness and wall along the bone normal, rounded rim, drill tubes. | yes |
+| Grow the device | [Bone Guide](https://github.com/iagoandreu/bone-guide) - **Guide Base** | The guide base inside the curve: one surface fitted to the bone, thickened with a measured clearance, rounded rim and contact edge, round and pentagonal drill tubes with their holes. | yes |
 | | [Outline Patch](https://github.com/iagoandreu/outline-patch) | Cuts the bone surface inside a closed 3D outline exactly and thickens it into a new body, with an optional rounded rim. | yes |
 | Screw and pin trajectories | [Axis Cylinder](https://github.com/iagoandreu/axis-cylinder) | A cylinder along a direction read off the model - a fitted plane normal, an edge or axis, a cylindrical face, a cylinder fitted to a scanned surface - placed where it is on screen. | no |
 | | [Fit Primitives](https://github.com/iagoandreu/fit-primitives) | Paint a region of a surface with a brush and fit a cylinder or a plane to it, with the deviation reported. | no |

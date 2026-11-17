@@ -8,4 +8,7 @@ pyvista
 shapely
 gmsh
 pynanoinstantmeshes
+open3d
+contourpy
+matplotlib
 pymeshlab
