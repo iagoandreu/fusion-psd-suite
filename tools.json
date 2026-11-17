@@ -1,0 +1,13 @@
+[
+  {"name": "Mesh to Part",        "repo": "mesh-to-part", "python": true},
+  {"name": "Global Registration", "repo": "global-registration", "python": true},
+  {"name": "Align Planes",        "repo": "align-planes", "python": false},
+  {"name": "Bone Guide",          "repo": "bone-guide", "python": true},
+  {"name": "Outline Patch",       "repo": "outline-patch", "python": true},
+  {"name": "Intersection Sketch", "repo": "intersection-sketch", "python": false},
+  {"name": "Alpha Shape",         "repo": "alpha-shape", "python": true},
+  {"name": "Axis Cylinder",       "repo": "axis-cylinder", "python": false},
+  {"name": "Fit Primitives",      "repo": "fit-primitives", "python": false},
+  {"name": "Lattice",             "repo": "voronoi-lattice", "python": true},
+  {"name": "Batch STL Export",    "repo": "batch-stl-export", "python": false}
+]
